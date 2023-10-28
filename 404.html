@@ -68,16 +68,16 @@
         <div class="col-12">
             <textarea class="form-control border-0" id="Request" placeholder="Special Request" required></textarea>
         </div>
-        <div class="col-12">
-            <button type="button" id="booking-final" class="btn btn-secondary w-100 py-3">
-                Book Now
-            </button>
-        </div>
+       
     </div>
            <label for="location">Your Location:</label>
-        <input type="text" id="location" name="location" placeholder="Enter your location" readonly>
-        <button type="button" onclick="getLocation()">Get My Location</button>
-        <input type="submit" value="Submit">
+        <input type="text" id="location" name="location" required placeholder="Enter your location" readonly>
+        <button type="button"  onclick="getLocation()" >Get My Location</button>
+        <div class="col-12">
+          <button type="button" id="booking-final"  class="btn btn-secondary w-100 py-3">
+              Book Now
+          </button>
+      </div>
     
 
 </form>
